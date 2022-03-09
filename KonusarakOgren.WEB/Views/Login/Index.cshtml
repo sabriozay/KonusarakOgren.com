@@ -1,0 +1,21 @@
+﻿  @{ Layout = null; }
+<html>
+  <head>
+    <title>Animated Login Page</title>
+   <link rel="stylesheet" href="~/css/Login.css" />
+    <style></style>
+  </head>
+  <body>
+      <div id="container" class="form-container">
+        <form asp-action="Index" asp-controller="Login"  name="myform" method="post">
+          <h1>Giriş</h1>
+	           	<input class="username" type="text" name="username" placeholder="Kullanıcı Adı"><br />
+	           	<input class="password" type="password" name="password" input="password" placeholder="**********"><br />
+	           <input class="sign-in animated bounceIn" type="submit" value="Giriş Yap">
+         	</form>
+        
+  </div> <!-- ENDS FORM CONTAINER -->
+
+    </div>
+  </body>
+</html>
